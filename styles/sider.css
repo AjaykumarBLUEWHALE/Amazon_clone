@@ -1,0 +1,46 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.sidebar {
+  position: absolute;
+  display: flex; 
+  align-items: center; 
+  left: 0;
+  right: 0;
+  background-color: #232F3E;
+  top: 60px;
+  border: none;
+  border-color: #232F3E;
+  height: 40px;
+}
+
+
+.sidebar-link {
+  position: relative;
+  display: flex; 
+  align-items: center; 
+  padding: 10px; 
+  color: white;
+  font-weight: bold;
+ height: 20px;
+ font-size: small;
+}
+.sidebar-link:hover ,.link:hover,.sid:hover{
+  border: solid white 2px;
+  }
+
+.link{
+  position: absolute;
+  font-size: larger;
+  color: white;
+  display: flex; 
+  align-items: center; 
+  padding: 10px; 
+  height: 20px;
+  right: 0px;
+}
+

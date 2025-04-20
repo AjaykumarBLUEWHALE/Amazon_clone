@@ -1,0 +1,23 @@
+/* Reset default margin and padding for all elements */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply flexbox to the .sidebar element */
+.sidebar {
+  display: flex; /* Display children elements in a row */
+  align-items: center; /* Vertically center the content */
+}
+
+/* Style for the individual sidebar links */
+.sidebar-link {
+  display: flex; /* Display text in a row */
+  align-items: center; /* Vertically center the content */
+  
+}
+
+/* Style for the text inside sidebar links */
+.sidebar-link div {
+  margin-left: 5px; /* Add some space between the text */
+}

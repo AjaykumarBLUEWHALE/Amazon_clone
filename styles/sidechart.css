@@ -1,0 +1,109 @@
+.bottom{
+  position: absolute;
+  left: 0;
+  right: 0;
+  background-color: #232F3E;
+  width: 1400px;
+  height: 350px;
+ 
+}
+.top{
+  position: absolute;
+  left: 0;
+  right: 0;
+  background-color: #476180;
+  width: 1400px;
+  height: 40px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  padding-top: 17px;
+}
+
+.txt5{
+margin-top: 30px;
+display: grid;
+grid-template-rows: 25px 20px 20px;
+cursor: pointer;
+color: white;
+}
+.txt5:hover{
+text-decoration: underline;
+}
+.last{
+  display: grid;
+        margin-top: 90px;
+        grid-template-columns: 1fr 1fr 1fr 1fr  ;
+        column-gap: 20px;
+        row-gap: 10px;
+        height: 120px;
+     
+       
+       
+}
+.king{
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+.last-class{
+  position: absolute;
+  top: 350px;
+  border-top-width:1px ;
+    border-top-style: solid;
+  background-color: #232F3E;
+  border-top-color:#476180;
+  width: 1400px;
+  height: 150px;
+}
+.boom2{
+  position: absolute;
+ display: flex;
+ align-items: center;
+ left: 700px;
+ top: 40px;
+ width: 100px;
+ height: 30px;
+ padding: 5px 5px 5px 5px;
+ background-color: #476180;
+ border: solid white 2px;
+ color: white;
+ font-weight: bold;
+}
+.boom1{
+  position: absolute;
+ display: flex;
+ align-items: center;
+ left: 600px;
+ top: 40px;
+ height: 30px;
+ width: 90px;
+}
+.language {
+  position: absolute;
+  display: flex; 
+  align-items: center; 
+  left: 40px;
+  right: 0px;
+  background-color: #232F3E;
+  top: 100px;
+  border: none;
+  border-color: #232F3E;
+ 
+}
+
+
+.lan {
+  position: relative;
+  display: flex; 
+  align-items: center; 
+  padding: 10px; 
+  color: white;
+  font-weight: bold;
+  top:0px;
+}
+.lan div {
+  margin-left: 5px; /
+}
+.lan:hover{
+  text-decoration: underline;
+}
